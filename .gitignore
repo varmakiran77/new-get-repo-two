@@ -28,15 +28,15 @@ pages/copado__*
 #If you are committing incrementally new fields and new Translations you can track them in Git, just be careful. 
 #If you choose  to ignore them in Git, you can always create a deployment with the Copado Deployer "Translation" Step. 
 
-# translations/*
-# objectTranslations/*
+translations/*
+objectTranslations/*
 
 #Sites which has Domain mapping has environment specific information. 
 #Make sure you setup Copado Environment Variables to make sites config files environment agnostic.
 #Until the above is achieved, you can ignore them as follows
 
-# sites/*
-# siteDotComSites/*
+sites/*
+siteDotComSites/*
 
 #Documents are mostly created in Production and are not deployed between Sandboxes. You can safely ignore them in Git.
 documents/*
